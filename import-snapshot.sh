@@ -151,3 +151,7 @@ fi
 echo
 echo "All done! Remember to check your node's logs to make sure everything is working: sudo journalctl -u echelond -f"
 echo
+echo "For faster peer exchange, you can download an up-to-date address book from ech.world easily"
+echo "Go to your .echelond/config directory, make a backup of your existing addrbook.json for safety and then run:"
+echo "wget https://ech.world/latest/addrbook.json -O addrbook.json"
+echo
